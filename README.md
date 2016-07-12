@@ -1,2 +1,2 @@
-npm i
-gulp
+`npm i
+gulp`
