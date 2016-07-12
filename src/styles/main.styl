@@ -1,0 +1,73 @@
+.container
+  position: relative
+  margin: 0 auto
+  width: 700 px
+@media screen and (min-width: 768px) and (max-width: 959px)
+  .container
+    width: 556px
+@media screen and (max-width: 767px)
+  .container
+    width:300px
+@media screen and (min-width: 480px) and (max-width: 767px)
+  .container
+    width:420px
+
+html,body,div,span,h1,h6,p,a,ul,li,audio,canvas
+  border:0
+  font:inherit
+  font-size:100%
+  margin:0
+  padding:0
+  vertical-align:baseline
+
+body
+  line-height:1
+  webkit-font-smoothing:antialiased
+  -webkit-text-size-adjust:100%
+  background-color:#111
+  color:#C8C7C8
+  font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-weight:300
+  padding:5px 0
+li
+  display: list-item
+  list-style-type: none
+  padding-bottom: 7px
+*
+  -webkit-tap-highlight-color:rgba(0,0,0,0)
+  -webkit-tap-highlight-color:transparent
+*
+  -moz-transition:all 100ms ease
+  -o-transition:all 100ms ease
+  -webkit-transition:all 100ms ease
+  transition:all 100ms ease
+h1
+  background-color: red
+.activeListItem
+  background-color: grey
+audio
+  margin:20px 15px 0 14px
+  width:670px
+#tracks
+  min-height:65px
+  position:relative
+  text-align:center
+  text-decoration:none
+  top:13px
+
+#btnPrev, #btnNext
+  background-color:#111
+  color:#C8C7C8
+  cursor:pointer
+  font-size:50px
+  margin: 0 auto
+  padding:0 27px 11px
+  text-decoration:none;
+  &:hover, &:active
+    background-color:#262223;
+#songTitle
+  text-align: center
+#btnPrev
+  left: 0
+#btnNext
+  right: 0
