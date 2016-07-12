@@ -1,3 +1,2 @@
-# audioPlayer
-# audioPlayer
-# audioPlayer
+npm i
+gulp
